@@ -27,6 +27,11 @@
 (add-to-list 'package-archives
          '("melpa" . "http://melpa.org/packages/") t)
 
+(global-hl-line-mode 1)
+(set-face-background 'hl-line "#c9e3ed")
+(set-face-foreground 'highlight nil)
+
+
 ; My shortcuts
 
 (global-set-key [M-left] 'windmove-left)          ; move to left window
