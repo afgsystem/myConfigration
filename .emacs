@@ -28,7 +28,7 @@
          '("melpa" . "http://melpa.org/packages/") t)
 
 (global-hl-line-mode 1)
-(set-face-background 'hl-line "#c9e3ed")
+(set-face-background 'hl-line "#1b1b1c")
 (set-face-foreground 'highlight nil)
 
 
