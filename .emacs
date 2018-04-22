@@ -39,7 +39,7 @@
 (global-set-key [M-up] 'windmove-up)              ; move to upper window
 (global-set-key [M-down] 'windmove-down)          ; move to lower window
 
-(global-set-key (kbd "C-x t") 'neotree)     
+;(global-set-key (kbd "C-x t") 'neotree)     
 
 
 ;(global-set-key (kbd "<C-up>") 'shrink-window)
@@ -54,8 +54,8 @@
 (menu-bar-mode -1)
 (split-window-horizontally)
 (mouse-avoidance-mode)
-
-(neotree)
+(delete-selection-mode 1)
+;(neotree)
 
 ; Startup window configrations
 
