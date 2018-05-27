@@ -35,6 +35,7 @@
 (menu-bar-mode -1)
 (split-window-horizontally)
 (mouse-avoidance-mode)
+(setq make-pointer-invisible t)
 (delete-selection-mode 1)
 (auto-revert-mode 1)
 (setq make-backup-files nil)
