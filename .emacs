@@ -1,7 +1,5 @@
 (package-initialize)
 
-(defvar defaultCursorColor "#42f44b")
-
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -28,8 +26,8 @@
 (global-hl-line-mode 1)
 (set-face-background 'hl-line "#1b1b1c")
 (set-face-foreground 'highlight nil)
-(set-cursor-color defaultCursorColor)
-(setq-default cursor-type 'hollow) 
+(set-cursor-color "#42f44b")
+(setq-default cursor-type 'box) 
 (setq ring-bell-function 'ignore)
 
 					; My shortcuts
@@ -82,7 +80,8 @@
 
 (put 'downcase-region 'disabled nil)
 
-(smooth-scroll-mode t)
+;(smooth-scroll-mode t)
+(global-linum-mode t)
 
 (when (not package-archive-contents)
   (package-refresh-contents))
