@@ -76,5 +76,6 @@ Monokai theme put into your ~/.emacs.d folder.
   )
 
 (put 'upcase-region 'disabled nil)
-
+; save session
+(desktop-save-mode 1)
 ```
